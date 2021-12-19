@@ -1,0 +1,1859 @@
+/* Banner */
+.banner {
+    background-image: url(../../../assets/img/banner-1440.jpg);
+    height: 450px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.lancamento {
+    width: 218px;
+    height: 39px;
+    background-color: #FBAC36;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 40px;
+    left: 540px;
+}
+
+.lancamento p {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.compre-agora {
+    width: 254px;
+    height: 56px;
+    background-color: #60966E;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 67px;
+    left: 340px;
+}
+
+.compre-agora p {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+/* Seção Categorias */
+.categoria {
+    height: 350px;
+    background-color: #F0EBEB;
+}
+
+.container-grid-2 {
+    width: 1240px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.nome-categorias {
+    position: absolute;
+    top: 50px;
+}
+
+.nome-categorias p {
+    font-family: "Poppins", sans-serif;
+    font-size: 28px;
+}
+
+.blocos {
+    width: 100%;
+    height: 159px;
+    background-color: #F0EBEB;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 67px;
+}
+
+.bloco-1 {
+    width: 160px;
+    height: 159px;
+    background-color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.bloco-1 img {
+    position: absolute;
+    bottom: 53px;
+}
+
+.bloco-1 p {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    color: black;
+    position: absolute;
+    bottom: 14px;
+}
+
+.bloco-2 {
+    width: 160px;
+    height: 159px;
+    background-color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.bloco-2 img {}
+
+.bloco-2 p {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    color: black;
+    position: absolute;
+    bottom: 14px;
+}
+
+.bloco-3 {
+    width: 160px;
+    height: 159px;
+    background-color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.bloco-3 img {
+    position: absolute;
+    bottom: 45px;
+}
+
+.bloco-3 p {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    color: black;
+    position: absolute;
+    bottom: 14px;
+}
+
+.bloco-4 {
+    width: 160px;
+    height: 159px;
+    background-color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.bloco-4 img {
+    position: absolute;
+    bottom: 47px;
+}
+
+.bloco-4 p {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    color: black;
+    position: absolute;
+    bottom: 14px;
+}
+
+.bloco-5 {
+    width: 160px;
+    height: 159px;
+    background-color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.bloco-5 img {
+    position: absolute;
+    bottom: 47px;
+}
+
+.bloco-5 p {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    color: black;
+    position: absolute;
+    bottom: 14px;
+}
+
+.bloco-6 {
+    width: 160px;
+    height: 159px;
+    background-color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.bloco-6 img {
+    position: absolute;
+    bottom: 50px;
+}
+
+.bloco-6 p {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    color: black;
+    position: absolute;
+    bottom: 14px;
+}
+
+.bloco-7 {
+    width: 160px;
+    height: 159px;
+    background-color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.bloco-7 img {}
+
+.bloco-7 p {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    color: black;
+    position: absolute;
+    bottom: 14px;
+}
+
+/* Seção de Produtos */
+.produtos-destaque {
+    width: 100%;
+    height: 1629px;
+    background-color: #9B9BA0;
+}
+
+.container-grid-3 {
+    width: 1240px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.nome-produtos-destaque {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 36px;
+    padding: 45px 0px;
+}
+
+.produtos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 30px;
+    column-gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid-item {
+    width: 295px;
+    height: 587px;
+    background-color: white;
+}
+
+/* Produto 1 */
+.produto-1 {
+    width: 295px;
+    height: 587px;
+    background-color: white;
+    position: relative;
+}
+
+.imagem1-produto {
+    width: 245px;
+    position: absolute;
+    top: 94px;
+    left: 23px;
+}
+
+.descricao-produto-1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    width: 224px;
+    position: absolute;
+    bottom: 50px;
+    left: 11px;
+    color: black;
+}
+
+.preco-1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 5px;
+    left: 11px;
+    color: black;
+}
+
+.favorito-1 {
+    position: absolute;
+    bottom: 194px;
+    right: 11px;
+}
+
+/* Produto 2 */
+.produto-2 {
+    width: 295px;
+    height: 587px;
+    background-color: white;
+    position: relative;
+}
+
+.imagem2-produto {
+    width: 215px;
+    position: absolute;
+    top: 37px;
+    left: 41px;
+}
+
+.descricao-produto-2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    width: 211px;
+    position: absolute;
+    bottom: 85px;
+    left: 11px;
+    color: black;
+}
+
+.preco-2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 42px;
+    left: 11px;
+    color: black;
+}
+
+.favorito-2 {
+    position: absolute;
+    bottom: 194px;
+    right: 11px;
+}
+
+/* Produto 3 */
+.produto-3 {
+    width: 295px;
+    height: 587px;
+    background-color: white;
+    position: relative;
+}
+
+.imagem3-produto {
+    width: 271px;
+    position: absolute;
+    top: 47px;
+    left: 21px;
+}
+
+.descricao-produto-3 { 
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    width: 201px;
+    position: absolute;
+    bottom: 123px;
+    left: 11px;
+    color: black;
+}
+
+.preco-3 {
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 69px;
+    left: 11px;
+    color: black;
+}
+
+.favorito-3 {
+    position: absolute;
+    bottom: 194px;
+    right: 11px;
+}
+
+/* Produto 4 */
+.produto-4 {
+    width: 295px;
+    height: 587px;
+    background-color: white;
+    position: relative;
+}
+
+.imagem-produto-4 {
+    position: absolute;
+    top: 60px;
+    left: 22px;
+    width: 247px;
+}
+
+.descricao-produto-4 {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    width: 252px;
+    position: absolute;
+    bottom: 50px;
+    left: 11px;
+    color: black;
+}
+
+.preco-4 {
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0px;
+    left: 11px;
+    color: black;
+}
+
+.favorito-4 {
+    position: absolute;
+    bottom: 194px;
+    right: 11px;
+}
+
+/* Produto 5 */
+.produto-5 {
+    width: 295px;
+    height: 587px;
+    background-color: white;
+    position: relative;
+}
+
+.imagem5-produto {
+    width: 214px;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+}
+
+.descricao-produto-5 {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    width: 219px;
+    position: absolute;
+    bottom: 147px;
+    left: 11px;
+    color: black;
+}
+
+.preco-5 {
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 95px;
+    left: 11px;
+    color: black;
+}
+
+.favorito-5 {
+    position: absolute;
+    bottom: 217px;
+    right: 11px;
+}
+
+/* Produto 6 */
+.produto-6 {
+    width: 295px;
+    height: 587px;
+    background-color: white;
+    position: relative;
+}
+
+.imagem6-produto {
+    width: 275px;
+    position: absolute;
+    top: 69px;
+    left: 7px;
+}
+
+.descricao-produto-6 {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    width: 263px;
+    position: absolute;
+    bottom: 79px;
+    left: 11px;
+    color: black;
+}
+
+.desconto-6 {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    text-decoration: line-through;
+    position: absolute;
+    bottom: 44px;
+    left: 11px;
+    color: black;
+}
+
+.preco-6 {
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 8px;
+    left: 11px;
+    color: black;
+}
+
+.favorito-6 {
+    position: absolute;
+    bottom: 221px;
+    right: 11px;
+}
+
+.faixa-desconto-6 {
+    width: 100%;
+    background-color: #6CC947;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0px;
+}
+
+.faixa-desconto-6 p {
+    color: white;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+
+/* Produto 7 */
+.produto-7 {    
+    width: 295px;
+    height: 587px;
+    background-color: white;
+    position: relative;
+}
+
+.imagem7-produto {
+    width: 261px;
+    position: absolute;
+    top: 80px;
+    left: 17px;
+}
+
+.descricao-produto-7 {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    width: 226px;
+    position: absolute;
+    bottom: 116px;
+    left: 11px;
+    color: black;
+}
+
+.desconto-7 {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    text-decoration: line-through;
+    position: absolute;
+    bottom: 83px;
+    left: 11px;
+    color: black;
+}
+
+.preco-7 {
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 40px;
+    left: 11px;
+    color: black;
+}
+
+.favorito-7 {
+    position: absolute;
+    bottom: 221px;
+    right: 11px;
+}
+
+.faixa-desconto-7 {
+    width: 100%;
+    background-color: #6CC947;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0px;
+}
+
+.faixa-desconto-7 p {
+    color: white;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+
+/* Produto 8 */
+.produto-8 {    
+    width: 295px;
+    height: 587px;
+    background-color: white;
+    position: relative;
+}
+
+.imagem8-produto {
+    width: 227px;
+    position: absolute;
+    top: 36px;
+    left: 31px;
+}
+
+.descricao-produto-8 {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    width: 202px;
+    position: absolute;
+    bottom: 112px;
+    left: 11px;
+    color: black;
+}
+
+.preco-8 {
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 64px;    
+    left: 11px;
+    color: black;
+}
+
+.favorito-8 {
+    position: absolute;
+    bottom: 218px;
+    right: 11px;
+}
+
+.todos-produtos {
+    width: 338px;
+    height: 60px;
+    background-color: #11C042;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 123px auto 0px;
+    text-decoration: none;
+}
+
+.todos-produtos a {
+    text-decoration: none;
+}
+
+.todos-produtos p {
+    font-family: "Poppins", sans-serif;
+    font-size: 28px;
+    color: white;
+}
+
+/* Seção Newsletter */
+.newsletter {
+    width: 100%;
+    height: 141px;
+    background-color: #E0D4D4;
+}
+
+.container-grid-4 {
+    width: 1240px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.nome-newsletter {}
+
+.nome-newsletter h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 26px;
+}
+
+.nome-newsletter p {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+}
+
+.container-grid-4 img {
+    position: absolute;
+    right: 514px;
+}
+
+.inscricao {
+    position: absolute;
+    right: 0px;
+    bottom: 58px;
+}
+
+.inscricao a {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    float: right;
+}
+
+.linha-email {
+    width: 506px;
+    border: 1px solid black;
+    position: absolute;
+    right: 0px;
+    bottom: 49px;
+}
+
+@media screen and (max-width: 1100px) {
+
+/* Banner */
+.banner {
+    background-image: url('/src/assets/img/banner-1440.jpg');
+    width: 100%;
+    height: 240px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.lancamento {
+    width: 166px;
+    height: 29.7px;
+    left: 263px;
+    top: 16px;
+}
+
+.lancamento p {
+    font-size: 19.8px;
+}
+
+.compre-agora {
+    width: 190.5px;
+    height: 42px;
+    position: absolute;
+    bottom: 24px;
+    left: 147px;
+}
+
+.compre-agora p {
+    font-size: 18px;
+}
+
+/* Categorias */
+.categoria {
+    height: 484px;
+}
+
+.container-grid-2 {
+    height: 484px;
+    display: flex;
+    justify-content: center;
+}
+
+.nome-categorias {}
+
+.blocos {
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 205px;
+}
+
+.bloco-1 {
+    width: 142.86px;
+    height: 141.96px;
+}
+
+.bloco-1 img {
+    width: 66.07px;
+    height: 66.07px;
+}
+
+.bloco-1 p {
+    font-size: 17.86px;
+}
+
+.bloco-2 {
+    width: 142.86px;
+    height: 141.96px;
+}
+
+.bloco-2 img {
+    width: 91.96px;
+    height: 39.29px;
+}
+
+.bloco-2 p {
+    font-size: 17.86px;
+}
+
+.bloco-3 {
+    width: 142.86px;
+    height: 142.86px;
+}
+
+.bloco-3 img {
+    width: 99.11px;
+    height: 75.89px;
+}
+
+.bloco-3 p {
+    font-size: 17.86px;
+}
+
+.bloco-4 {
+    width: 142.86px;
+    height: 142.86px;
+}
+
+.bloco-4 img {
+    width: 75px;
+    height: 69.64px;
+}
+
+.bloco-4 p {
+    font-size: 17.86px;
+}
+
+.bloco-5 {
+    width: 142.86px;
+    height: 142.86px;
+    margin-left: 10px;
+}
+
+.bloco-5 img {
+    width: 75px;
+    height: 69.64px;
+}
+
+.bloco-5 p {
+    font-size: 17.86px;
+}
+
+.bloco-6 {
+    width: 142.77px;
+    height: 142.77px;
+}
+
+.bloco-6 img {
+    width: 66.03px;
+    height: 61.57px;
+}
+
+.bloco-6 p {
+    font-size: 17.85px;
+}
+
+.bloco-7 {
+    width: 142.77px;
+    height: 142.77px;
+}
+
+.bloco-7 img {
+    width: 69.6px;
+    height: 22.31px;
+}
+
+.bloco-7 p {
+    font-size: 17.85px;
+}
+
+/* Produtos em destaque */
+.produtos-destaque {
+    height: 1700px;
+}
+
+.container-grid-3 {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.nome-produtos-destaque {
+    display: flex;
+    justify-content: center;
+}
+
+.produtos {
+    display: flex;
+    justify-content: center;
+    column-gap: 22px;
+    row-gap: 32px;
+}
+
+/* Produto 1 */
+.produto-1 {
+    width: 200.43px;
+    height: 443px;
+}
+
+.imagem1-produto {
+    width: 166.46px;
+    height: 118.9px;
+    left: 19px;
+}
+
+.descricao-produto-1 {
+    font-size: 16.31px;
+    width: 152.19px;
+    height: 120.26px;
+    bottom: 68px;
+}
+
+.preco-1 {
+    width: 109.39px;
+    height: 22.42px;
+    font-size: 20.38px;
+    position: absolute;
+    bottom: 33px;
+}
+
+.favorito-1 {
+    position: absolute;
+    bottom: 160px;
+}
+
+.favorito-1 img {
+    width: 20.38px;
+    height: 20.38px;
+}
+
+/* Produto 2 */
+.produto-2 {
+    width: 200.43px;
+    height: 443px;
+}
+
+.imagem2-produto {
+    width: 146.08px;
+    height: 188.2px;
+    left: 30px;
+}
+
+.descricao-produto-2 {
+    width: 143.36px;
+    height: 103.27px;
+    font-size: 16.31px;
+    bottom: 83px;
+}
+
+.preco-2  {
+    width: 109.39px;
+    height: 22.42px;
+    font-size: 20.38px;
+    position: absolute;
+    bottom: 55px;
+}
+
+.favorito-2 {
+    bottom: 158px;
+}
+
+.favorito-2 img {
+    width: 20.38px;
+    height: 20.38px;
+}
+
+/* Produto 3 */
+.produto-3 {
+    width: 200.43px;
+    height: 443px;
+}
+
+.imagem3-produto {
+    width: 184.13px;
+    height: 181.41px;
+    left: 15px;
+}
+
+.descricao-produto-3 {
+    width: 136.57px;
+    height: 74.74px;
+    font-size: 16.31px;
+    bottom: 112px;
+}
+
+.preco-3  {
+    width: 125.02px;
+    height: 22.42px;
+    font-size: 20.38px;
+    bottom: 81px;
+}
+
+.favorito-3 {
+    bottom: 157px;
+}
+
+.favorito-3 img {
+    width: 20.38px;
+    height: 20.38px;
+}
+
+/* Produto 4 */
+.produto-4 {
+    width: 200px;
+    height: 443px;
+}
+
+.imagem-produto-4 {
+    width: 167.82px;
+    height: 165.1px;
+    left: 16px;
+    top: 47px;
+}
+
+.descricao-produto-4 {
+    width: 171.22px;
+    height: 118.9px;
+    font-size: 16.31px;
+    position: absolute;
+    bottom: 65px;
+}
+
+.preco-4  {
+    width: 123.66px;
+    height: 22.42px;
+    font-size: 20.38px;
+    position: absolute;
+    bottom: 26px;
+}
+
+.favorito-4 {
+    bottom: 155px;
+}
+
+.favorito-4 img {
+    width: 20.38px;
+    height: 20.38px;
+}
+
+/* Produto 5 */
+.produto-5 {
+    width: 200.43px;
+    height: 442.99px;
+}
+
+.imagem5-produto {
+    width: 145.4px;
+    height: 186.85px;
+    left: 28px;
+}
+
+.descricao-produto-5 {
+    font-size: 16.31px;
+    width: 148.8px;
+    height: 73.38px;
+    bottom: 111px;
+}
+
+.preco-5 {
+    width: 95.12px;
+    height: 30.57px;
+    font-size: 20.38px;
+    position: absolute;
+    bottom: 74px;
+}
+
+.favorito-5 {
+    bottom: 155px;
+}
+
+.favorito-5 img {
+    width: 20.38px;
+    height: 20.38px;
+}
+
+/* Produto 6 */
+.produto-6 {
+    width: 200.43px;
+    height: 442.99px;
+}
+
+.imagem6-produto {
+    width: 186.85px;
+    height: 135.21px;
+    left: 6px;
+}
+
+.descricao-produto-6 {
+    font-size: 16.31px;
+    width: 178.69px;
+    height: 127.73px;
+    bottom: 59px;
+}
+
+.desconto-6 {
+    font-size: 16.31px;
+    position: absolute;
+    bottom: 37px;
+}
+
+.preco-6 {
+    font-size: 20.38px;
+    position: absolute;
+    bottom: 9px;
+}
+
+.favorito-6 {
+    bottom: 157px;
+}
+
+.favorito-6 img {
+    width: 20.38px;
+    height: 20.38px;
+}
+
+.faixa-desconto-6 {
+    width: 200.43px;
+    height: 25.82px;
+}
+
+.faixa-desconto-6 p {
+    font-size: 16.31px;
+}
+
+/* Produto 7 */
+.produto-7 {
+    width: 200.43px;
+    height: 444.35px;
+}
+
+.imagem7-produto {
+    width: 177.33px;
+    height: 127.73px;
+    left: 11px;
+}
+
+.descricao-produto-7 {
+    width: 153.55px;
+    height: 94.44px;
+    font-size: 16.31px;
+    position: absolute;
+    bottom: 100px;
+}
+
+.desconto-7 {
+    position: absolute;
+    bottom: 81px;
+    width: 86.97px;
+    height: 12.91px;
+}
+
+.desconto-7 p {
+    font-size: 16.31px;
+}
+
+.preco-7 {
+    width: 99.88px;
+    height: 30.57px;
+    font-size: 20.38px;
+}
+
+.favorito-7 {
+    bottom: 165px;
+}
+
+.favorito-7 img {
+    width: 20.38px;
+    height: 20.38px;
+}
+
+.faixa-desconto-7 {
+    width: 200.43px;
+    height: 25.82px;
+}
+
+.faixa-desconto-7 p {
+    font-size: 16.31px;
+}
+
+/* Produto 8 */
+.produto-8 {
+    width: 200.43px;
+    height: 444.35px;
+}
+
+.imagem8-produto {
+    width: 154.23px;
+    height: 188.88px;
+    left: 23px;
+}
+
+.descricao-produto-8 {
+    width: 137.25px;
+    height: 97.16px;
+    font-size: 16.31px;
+    bottom: 99px;
+}
+
+.preco-8 {
+    width: 97.16px;
+    height: 30.57px;
+    font-size: 20.38px;
+    position: absolute;
+    bottom: 60px;
+}
+
+.favorito-8 {
+    position: absolute;    
+    bottom: 165px;
+}
+
+.favorito-8 img {
+    width: 20.38px;
+    height: 20.38px;   
+}
+
+.todos-produtos {
+    position: absolute;
+    bottom: 46px;
+    left: 181px;
+}
+
+.todos-produtos a {
+    text-decoration: none;
+}
+
+/* Newsletter */
+.newsletter {
+    height: 276px;
+}
+
+.container-grid-4 {
+    width: 696px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.nome-newsletter {
+    padding-top: 30px;
+}
+
+.nome-newsletter h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.linha-email {
+    width: 633px;
+}
+
+.container-grid-4 img {
+    position: absolute;
+    bottom: 58px;
+    left: 30px;
+}
+
+} 
+
+@media screen and (max-width: 360px) {
+
+/* Banner */
+.banner {
+    /* background-image: url(../img/banner-celular.jpg); */
+    width: 360px;
+    height: 539px;
+}
+
+.lancamento {
+    width: 141px;
+    height: 25.22px;
+    top: 10px;
+    left: 196px;
+}
+
+.lancamento p {
+    font-size: 16.82px;
+}
+
+.compre-agora {
+    width: 226.79px;
+    height: 50px;
+    bottom: 205px;
+    left: 66px;
+}
+
+.compre-agora p {
+    font-size: 21.43px;
+}
+
+/* Categoria */
+.categoria {
+    width: 360px;
+    height: 700px;
+}
+
+.nome-categorias {
+    top: 20px;
+}
+
+.nome-categorias p {
+    font-size: 24.55px;
+}
+
+.blocos {
+    justify-content: space-around;
+    top: 76px;
+}
+
+.bloco-1 {
+    width: 125px;
+    height: 124.22px;
+    margin-bottom: 32px;
+}
+
+.bloco-1 img {
+    width: 57.81px;
+    height: 57.81px;
+}
+
+.bloco-1 p {
+    font-size: 15.72px;
+}
+
+.bloco-2 {
+    width: 125px;
+    height: 124.22px;
+}
+
+.bloco-2 img {
+    width: 80.47px;
+    height: 34.38px;
+}
+
+.bloco-2 p {
+    font-size: 15.71px;
+}
+
+.bloco-3 {
+    width: 125px;
+    height: 125px;
+    margin-bottom: 32px;
+}
+
+.bloco-3 img {
+    width: 86.72px;
+    height: 66.41px;
+}
+
+.bloco-3 p {
+    font-size: 15.5px;
+}
+
+.bloco-4 {
+    width: 125px;
+    height: 125px;
+}
+
+.bloco-4 img {
+    width: 65.63px;
+    height: 60.94px;
+}
+
+.bloco-4 p {
+    font-size: 15.5px;
+}
+
+.bloco-5 {
+    width: 125px;
+    height: 125px;
+    margin-bottom: 32px;
+}
+
+.bloco-5 img {
+    width: 57.81px;
+    height: 53.91px;
+}
+
+.bloco-5 p {
+    font-size: 15.97px;
+}
+
+.bloco-6 {
+    width: 125px;
+    height: 125px;
+}
+
+.bloco-6 img {
+    width: 61.72px;
+    height: 61.72px;
+}
+
+.bloco-6 p {
+    font-size: 15.63px;
+}
+
+.bloco-7 {
+    width: 125px;
+    height: 125px;
+}
+
+.bloco-7 img {
+    width: 60.94px;
+    height: 19.53px;
+}
+
+.bloco-7 p {
+    font-size: 15.75px;
+}
+
+
+/* Produtos em destaque */
+.produtos-destaque {
+    width: 360px;
+    height: 1534px;
+}
+
+.container-grid-3 {
+    width: 90%;
+    height: 100%;
+    margin: 0px auto;
+}
+
+.nome-produtos-destaque {
+    font-size: 24px;
+    padding: 30px 0px;
+}
+
+.produto-1 {
+    width: 147px;
+    height: 292.51px;
+}
+
+.imagem1-produto {
+    width: 122.08px;
+    height: 87.2px;
+    top: 46px;
+    left: 12px;
+}
+
+.descricao-produto-1 {
+    width: 111.62px;
+    height: 88.2px;
+    font-size: 11.98px;
+    left: 7px;
+    bottom: 28px;
+}
+
+.preco-1 {
+    width: 80.23px;
+    height: 16.44px;
+    font-size: 14.97px;
+    left: 7px;
+    bottom: 10px;
+}
+
+.favorito-1 {
+    bottom: 94px;
+    right: 4px;
+}
+
+.favorito-1 img {
+    width: 14.95px;
+    height: 14.95px;
+}
+
+.produto-2 {
+    width: 147px;
+    height: 292.51px;
+}
+
+.imagem2-produto {
+    width: 107.14px;
+    height: 138.03px;
+    top: 22px;
+    left: 20px;
+}
+
+.descricao-produto-2 {
+    width: 105.14px;
+    height: 75.74px;
+    font-size: 12.02px;
+    left: 7px;
+    bottom: 41px;
+}
+
+.preco-2 {
+    width: 80.23px;
+    height: 16.44px;
+    font-size: 15.03px;
+    left: 7px;
+    bottom: 25px;
+}
+
+.favorito-2 {
+    bottom: 94px;
+    right: 4px;
+}
+
+.favorito-2 img {
+    width: 14.95px;
+    height: 14.95px;
+}
+
+.produto-3 {
+    width: 147px;
+    height: 292.51px;
+}
+
+.imagem3-produto {
+    width: 135.04px;
+    height: 133.05px;
+    top: 14px;
+    left: 12px;
+}
+
+.descricao-produto-3 {
+    width: 100.16px;
+    height: 54.81px;
+    font-size: 12.06px;
+    bottom: 80px;
+    left: 7px;
+}
+
+.preco-3 {
+    width: 91.69px;
+    height: 16.44px;
+    font-size: 15.08px;
+    left: 7px;
+    bottom: 60px;
+}
+
+.favorito-3 {
+    bottom: 112px;
+    right: 4px;
+}
+
+.favorito-3 img {
+    width: 14.95px;
+    height: 14.95px;
+}
+
+.produto-4 {
+    width: 147px;
+    height: 292.51px;
+}
+
+.imagem-produto-4 {
+    width: 123.08px;
+    height: 121.09px;
+    top: 29px;
+    left: 12px;
+}
+
+.descricao-produto-4 {
+    width: 125.57px;
+    height: 87.2px;
+    font-size: 12.02px;
+    bottom: 49px;
+    left: 7px;
+}
+
+.preco-4 {
+    width: 90.69px;
+    height: 16.44px;
+    font-size: 15.03px;
+    left: 7px;
+}
+
+.favorito-4 {
+    bottom: 114px;
+    right: 4px;
+}
+
+.favorito-4 img {
+    width: 14.95px;
+    height: 14.95px;
+}
+
+.produto-5 {
+    width: 147.05px;
+    height: 325px;
+}
+
+.imagem5-produto {
+    width: 106.67px;
+    height: 137.08px;
+    top: 23px;
+    left: 21px;
+}
+
+.descricao-produto-5 {
+    width: 109.16px;
+    height: 53.83px;
+    font-size: 11.96px;
+    bottom: 92px;
+    left: 7px;
+}
+
+.preco-5 {
+    width: 69.79px;
+    height: 22.43px;
+    font-size: 14.95px;
+    bottom: 63px;
+    left: 7px;
+}
+
+.favorito-5 {
+    bottom: 123px;
+    right: 5px;
+}
+
+.favorito-5 img {
+    width: 14.95px;
+    height: 14.95px;
+}
+
+.produto-6 {
+    width: 147.5px;
+    height: 326px;
+}
+
+.imagem6-produto {
+    width: 137.5px;
+    height: 99.5px;
+    top: 53px;
+    left: 4px;
+}
+
+.descricao-produto-6 {
+    width: 131.5px;
+    height: 94px;
+    font-size: 12px; 
+    bottom: 53px; 
+    left: 7px;  
+}
+
+.desconto-6 {
+    width: 72.5px;
+    height: 16.5px;
+    font-size: 12px;
+    left: 7px;
+}
+
+.preco-6 {
+    width: 88px;
+    height: 22.5px;
+    font-size: 15px;
+    bottom: 13px;
+    left: 7px;
+}
+
+.favorito-6 {
+    bottom: 126px;
+    right: 4px;
+    right: 5px;
+}
+
+.favorito-6 img {
+    width: 15px;
+    height: 15px;
+}
+
+.faixa-desconto-6 {
+    width: 147.5px;
+    height: 19px;
+}
+
+.faixa-desconto-6 p {
+    font-size: 12px;
+}
+
+.produto-7 {
+    width: 147.5px;
+    height: 327px;
+}
+
+.imagem7-produto {
+    width: 130.5px;
+    height: 94px;
+    top: 54px;
+    left: 8px;
+}
+
+.descricao-produto-7 {
+    width: 113px;
+    height: 69.5px;
+    font-size: 12px;
+    bottom: 75px;
+    left: 7px;
+}
+
+.desconto-7 {
+    width: 64px;
+    height: 9.5px;
+    bottom: 60px;
+    left: 7px;
+}
+
+.desconto-7 p {
+    font-size: 12px;
+}
+
+.preco-7 {
+    width: 73.5px;
+    height: 22.5px;
+    font-size: 15px;
+    bottom: 27px;
+    left: 7px;
+}
+
+.favorito-7 {
+    bottom: 122px;
+    right: 5px;
+}
+
+.favorito-7 img {
+    width: 15px;
+    height: 15px;
+}
+
+.faixa-desconto-7 {
+    width: 147.5px;
+    height: 19px;
+}
+
+.faixa-desconto-7 p {
+    font-size: 12px;
+}
+
+.produto-8 {
+    width: 147px;
+    height: 324.9px;
+}
+
+.imagem8-produto {
+    width: 113.12px; 
+    height: 138.53px;
+    top: 18px;
+    left: 17px;
+}
+
+.descricao-produto-8 {
+    width: 100.66px;
+    height: 71.26px;
+    font-size: 12.04px;
+    bottom: 72px;
+}
+
+.preco-8 {
+    width: 72px;
+    height: 22px;
+    font-size: 15.05px;
+    bottom: 46px;
+}
+
+.favorito-8 {
+    bottom: 121px;
+    right: 5px;
+}
+
+.favorito-8 img {
+    width: 14.95px;
+    height: 14.95px;
+}
+
+.todos-produtos {
+    width: 229px;
+    height: 40.65px;
+    left: 48px;
+    bottom: 29px;
+}
+
+.todos-produtos p {
+    font-size: 18.97px;
+}
+
+/* Newsletter */
+.newsletter {
+    width: 360px;
+    height: 226px;
+}
+
+.container-grid-4 {
+    width: 90%;
+    height: 100%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: initial;
+    align-items: center;
+}
+
+.nome-newsletter {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.nome-newsletter h2 {
+    font-size: 24px;
+}
+
+.nome-newsletter p {
+    font-size: 14px;
+    width: 275px;
+    height: 43px;
+    text-align: center;
+}
+
+.inscricao {}
+
+.inscricao a {
+    font-size: 13px;
+}
+
+.linha-email {
+    width: 303px;
+}
+
+}
+
+
+
+
+

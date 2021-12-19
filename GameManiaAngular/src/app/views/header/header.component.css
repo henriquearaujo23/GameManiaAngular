@@ -1,0 +1,93 @@
+header {
+    height: 107px;
+}
+
+.container-grid {
+    width: 1240px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.menu-header {
+    width: 529px;
+    position: absolute;
+    left: 246px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-header a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.icones {
+    width: 167px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icones a {}
+
+.menu-hamburguer {
+    display: none;
+}
+
+@media screen and (max-width: 1100px) {
+
+/* Header */
+.menu-header {
+    display: none;
+    flex-direction: column;
+    width: 200px;
+    height: 250px;
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+    
+.menu-hamburguer {
+    display: inline-block;
+    margin-right: 50px;
+}
+    
+.container-grid {
+    position: relative;
+}
+    
+.logo-menuhamburguer {    
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+}
+
+@media screen and (max-width: 360px) {
+
+/* Header */
+header {
+    width: 360px;
+    height: 63px;
+}
+    
+.logo-menuhamburguer {
+    flex-direction: row;
+}
+    
+.logo {
+    margin-right: 93px;
+}
+    
+.icones {
+    display: none;
+}
+
+}
