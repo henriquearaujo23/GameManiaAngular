@@ -728,24 +728,25 @@
     position: absolute;
     right: 0px;
     bottom: 58px;
-}
-
-.inscricao a {
+    background: none;
+    border: none;
     font-family: "Poppins", sans-serif;
     font-size: 18px;
     text-transform: uppercase;
-    text-decoration: none;
-    color: black;
-    display: flex;
-    float: right;
 }
 
-.linha-email {
+.inscricao a {}
+
+#email {
     width: 506px;
     border: 1px solid black;
     position: absolute;
     right: 0px;
     bottom: 49px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid;
+    outline: none;
 }
 
 @media screen and (max-width: 1100px) {
@@ -1279,7 +1280,7 @@
     justify-content: center;
 }
 
-.linha-email {
+#email {
     width: 633px;
 }
 
@@ -1841,13 +1842,13 @@
     text-align: center;
 }
 
-.inscricao {}
-
-.inscricao a {
+.inscricao {
     font-size: 13px;
 }
 
-.linha-email {
+.inscricao a {}
+
+#email {
     width: 303px;
 }
 

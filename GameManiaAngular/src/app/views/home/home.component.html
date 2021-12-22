@@ -170,10 +170,11 @@
             <h2>Newsletter</h2>
             <p>Receba atualizações assinando nosso boletim informativo</p>
         </div>
-        <img src="img/newsletter-figma.png" alt="">
-        <div class="inscricao"> 
-            <a href="#">Se Inscrever</a> 
-        </div>
-        <div class="linha-email"></div>
+        <form #emailnewsletterForm="ngForm" (ngSubmit)="onSubmit()">
+            <label for="email"></label>
+            <input type="email" id="email" name="email" [(ngModel)]="emailnewsletterModel.email">
+            <button type="submit" class="inscricao">Se Inscrever</button>
+            <img src="assets/img/newsletter-figma.png" alt="newsletter-figma.png">
+        </form>
     </div>
 </section>
