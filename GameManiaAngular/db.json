@@ -5,5 +5,37 @@
       "password": "$2a$10$o7EgI430FBtM1Buv7gS7xeHW8TomCUnS7e6R7Mww8Bpg0NPUTyzae",
       "id": 1
     }
+  ],
+  "produtos": [
+    {
+      "titulo": "Produto 1",
+      "descricao": "Essa é a descrição do produto 1",
+      "id": 1
+    },
+    {
+      "titulo": "Produto 2",
+      "descricao": "Essa é a descrição do produto 2",
+      "id": 2
+    },
+    {
+      "titulo": "Produto 3",
+      "descricao": "Essa é a descrição do produto 3",
+      "id": 3
+    },
+    {
+      "titulo": "Produto 4",
+      "descricao": "Essa é a descrição do produto 4",
+      "id": 4
+    },
+    {
+      "titulo": "Produto 5",
+      "descricao": "Essa é a descrição legal do produto 5",
+      "id": 5
+    },
+    {
+      "titulo": "Produto 6",
+      "descricao": "Essa é a descrição legal do produto 6",
+      "id": 6
+    }
   ]
 }
