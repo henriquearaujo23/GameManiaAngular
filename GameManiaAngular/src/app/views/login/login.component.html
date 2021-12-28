@@ -4,19 +4,20 @@
 <main>
     <div class="card" id="telaLogin">
         <div class="card-body">
-            <form>
+            <form #loginForm="ngForm" (ngSubmit)="onSubmit()">
                 <div class="mb-3">
                     <label class="form-label">Login</label>
-                    <input type="email" class="form-control" id="" aria-describedby="emailHelp" placeholder="Informe seu email">
+                    <input type="email" class="form-control" id="email" placeholder="Informe seu email" [(ngModel)]="loginModel.email" name="email" required>
                 </div>
                 <div class="mb-3">
                     <label class="form-label">Senha</label>
-                    <input type="password" class="form-control" id="" placeholder="Insira sua senha">
+                    <input type="password" class="form-control" id="senha" placeholder="Insira sua senha" [(ngModel)]="loginModel.password" name="password" required>
                 </div>
                 <div class="d-grid gap-2">
-                    <button class="btn btn-success" type="button">Entrar</button>
+                    <button class="btn btn-success" type="submit">Fazer Login</button>
                 </div>
             </form>
         </div>
     </div>
+    <p *ngIf=" mensagem!= '' ">{{ mensagem }}</p>
 </main>
