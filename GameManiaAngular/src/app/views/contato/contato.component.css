@@ -1,0 +1,356 @@
+/* Cabeçalho */
+header {
+    height: 107px;
+}
+
+.container-grid {
+    width: 1240px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.menu-header {
+    width: 529px;
+    position: absolute;
+    left: 246px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-header a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.icones {
+    width: 167px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icones a {}
+
+.menu-hamburguer {
+    display: none;
+}
+
+/* Parte de cima */
+.parte-cima {
+    height: 250px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parte-cima h1 {
+    color: white;
+    font-size: 50px;
+    font-family: "Poppins", sans-serif;
+    font-size: 70px;
+}
+
+/* Parte de baixo */
+.parte-baixo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+    height: 407px;
+    flex-wrap: wrap;
+}
+
+/* Email */
+.img-email {
+    margin-bottom: 10px;
+}
+
+.nome-email {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.duvida {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.email-generico {
+    font-family: "Poppins",sans-serif;
+    font-weight: 700;
+}
+
+/* Telefone */
+.img-telefone {
+    margin-bottom: 10px;
+}
+
+.nome-telefone {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.ligacao {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.numero-generico {
+    font-family: "Poppins",sans-serif;
+    font-weight: 700;
+}
+
+/* Rodapé */
+footer {
+    width: 100%;
+    height: 268px;
+    background-color: #F2E8E8;
+}
+
+.container-grid-5 {
+    width: 1240px;
+    height: 268px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.nome-game-mania {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+}
+
+.direitos-reservados {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+}
+
+.sobre-nos {
+    list-style: none;
+    font-family: "Poppins",sans-serif;
+    font-size: 18px;
+    margin: 0px 0px 20px 136px;
+    color: rgba(0, 0, 0, 0.699);
+}
+
+.nome-sobre-nos {
+    color: black;
+}
+
+.sobre-nos li {
+    margin-bottom: 7px;
+}
+
+.sobre-nos li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.699);
+}
+
+.links-uteis {
+    list-style: none;
+    font-family: "Poppins",sans-serif;
+    font-size: 18px;
+    margin: 0px 0px 18px 100px;
+    color: rgba(0, 0, 0, 0.699);
+}
+
+.nome-links-uteis {
+    color: black;
+}
+
+.links-uteis li {
+    margin-bottom: 7px;
+}
+
+.links-uteis li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.699);
+}
+
+.faqs {
+    text-transform: uppercase;
+}
+
+.faqs p {}
+
+.siga-nos {
+    list-style: none;
+    font-family: "Poppins",sans-serif;
+    font-size: 18px;
+    margin: 14px 0px 0px 98px;
+}
+
+.nome-siga-nos {
+    color: black;
+}
+ 
+.siga-nos li {
+    margin-bottom: 7px;
+}
+
+.siga-nos li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.699);
+}
+
+/* Media screen */
+@media screen and (max-width: 1100px) {
+
+/* Header */
+.menu-header {
+    display: none;
+    flex-direction: column;
+    width: 200px;
+    height: 250px;
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+    
+.menu-hamburguer {
+    display: inline-block;
+    margin-right: 50px;
+}
+    
+.container-grid {
+    position: relative;
+}
+    
+.logo-menuhamburguer {    
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* Rodapé */
+footer {
+    height: 1148px;
+}
+
+.container-grid-5{
+    width: 696px;
+    height: 1148px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.parte-esquerda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 162px;
+}
+
+.parte-esquerda a img {}
+
+.nome-game-mania {
+    font-size: 25.98px;
+}
+
+.direitos-reservados {
+    font-size: 25.98px;
+}
+
+.sobre-nos {
+    margin: 0px 0px 79px 0px;
+    position: absolute;
+    top: 55px;
+    left: 0px;
+    font-size: 21.88px;
+}
+
+.links-uteis {
+    margin: 0px 0px 79px 0px;
+    position: absolute;
+    left: 0px;
+    top: 267px;
+    font-size: 21.88px;
+}
+
+.siga-nos {
+    margin: 0px;
+    position: absolute;
+    left: 0px;
+    top: 478px;
+    font-size: 21.88px;
+}
+
+}
+
+@media screen and (max-width: 360px) {
+
+/* Header */
+header {
+    width: 360px;
+    height: 63px;
+}
+    
+.logo-menuhamburguer {
+    flex-direction: row;
+}
+    
+.logo {
+    margin-right: 93px;
+}
+    
+.icones {
+    display: none;
+} 
+
+/* Footer */
+footer {
+    width: 360px;
+    height: 892px;
+}
+
+.container-grid-5 {
+    width: 90%;
+    height: 100%;
+    margin: 0px auto;
+}
+
+.parte-esquerda {
+    bottom: 59px;
+}
+
+.nome-game-mania {
+    font-size: 18px;
+}
+
+.direitos-reservados {
+    width: 156px;
+    height: 54px;
+    font-size: 18px;
+    text-align: center; 
+}
+
+.sobre-nos {
+    font-size: 18px;
+}
+
+.links-uteis {
+    font-size: 18px;
+}
+
+.siga-nos {
+    font-size: 18px;
+}
+
+}
