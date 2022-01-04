@@ -44,7 +44,7 @@ header {
 /* Parte de cima */
 .parte-cima {
     height: 250px;
-    background-color: gray;
+    background-color: #9B9BA0;
     display: flex;
     align-items: center;
     justify-content: center;

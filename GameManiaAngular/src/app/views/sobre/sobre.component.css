@@ -1,0 +1,32 @@
+/* Parte cinza de cima */
+.sobre {
+    background-color: #9B9BA0;
+    height: 231px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sobre p {
+    color: white;
+    font-size: 64px;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Parte de baixo */
+.historia {
+    height: 508px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.historia p {
+    color: black;
+    width: 696px;
+    height: 426px; 
+    font-size: 28px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;   
+}

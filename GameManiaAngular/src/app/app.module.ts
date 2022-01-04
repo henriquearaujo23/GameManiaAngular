@@ -12,6 +12,7 @@ import { FooterComponent } from './views/footer/footer.component';
 import { NotFoundComponent } from './views/not-found/not-found.component';
 import { ContatoComponent } from './views/contato/contato.component';
 import { ProdutosComponent } from './views/produtos/produtos.component';
+import { SobreComponent } from './views/sobre/sobre.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ProdutosComponent } from './views/produtos/produtos.component';
     FooterComponent,
     NotFoundComponent,
     ContatoComponent,
-    ProdutosComponent
+    ProdutosComponent,
+    SobreComponent
   ],
   imports: [
     BrowserModule,
