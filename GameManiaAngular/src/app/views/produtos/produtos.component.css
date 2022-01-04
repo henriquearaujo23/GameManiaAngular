@@ -1,0 +1,1435 @@
+/* Header */
+header {
+    height: 107px;
+    background-color: white;
+}
+
+.container-grid {
+    width: 1240px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.menu-header {
+    width: 529px;
+    position: absolute;
+    left: 246px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-header a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.icones {
+    width: 167px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icones a {}
+
+.menu-hamburguer {
+    display: none;
+}
+
+/* Seção de Produtos */
+.produtos-destaque {
+    width: 100%;
+    height: 2952px;
+    background-color: #9B9BA0;
+}
+
+.container-grid-3 {
+    width: 1240px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.nome-produtos-destaque {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 36px;
+    padding: 45px 0px;
+    text-align: center;
+}
+
+.produtos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 30px;
+    column-gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid-item {
+    width: 295px;
+    height: 587px;
+    background-color: white;
+}
+
+/* Produto 1 */
+.produto-1 {
+    width: 295px;
+    height: 587px;
+    background-color: white;
+    position: relative;
+}
+
+.imagem1-produto {
+    width: 245px;
+    position: absolute;
+    top: 94px;
+    left: 23px;
+}
+
+.descricao-produto-1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    width: 224px;
+    position: absolute;
+    bottom: 50px;
+    left: 11px;
+    color: black;
+}
+
+.preco-1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 5px;
+    left: 11px;
+    color: black;
+}
+
+.favorito-1 {
+    position: absolute;
+    bottom: 194px;
+    right: 11px;
+}
+
+/* Produto 2 */
+.produto-2 {
+    width: 295px;
+    height: 587px;
+    background-color: white;
+    position: relative;
+}
+
+.imagem2-produto {
+    width: 215px;
+    position: absolute;
+    top: 37px;
+    left: 41px;
+}
+
+.descricao-produto-2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    width: 211px;
+    position: absolute;
+    bottom: 85px;
+    left: 11px;
+    color: black;
+}
+
+.preco-2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 42px;
+    left: 11px;
+    color: black;
+}
+
+.favorito-2 {
+    position: absolute;
+    bottom: 194px;
+    right: 11px;
+}
+
+/* Produto 3 */
+.produto-3 {
+    width: 295px;
+    height: 587px;
+    background-color: white;
+    position: relative;
+}
+
+.imagem3-produto {
+    width: 271px;
+    position: absolute;
+    top: 47px;
+    left: 21px;
+}
+
+.descricao-produto-3 { 
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    width: 201px;
+    position: absolute;
+    bottom: 123px;
+    left: 11px;
+    color: black;
+}
+
+.preco-3 {
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 69px;
+    left: 11px;
+    color: black;
+}
+
+.favorito-3 {
+    position: absolute;
+    bottom: 194px;
+    right: 11px;
+}
+
+/* Produto 4 */
+.produto-4 {
+    width: 295px;
+    height: 587px;
+    background-color: white;
+    position: relative;
+}
+
+.imagem-produto-4 {
+    position: absolute;
+    top: 60px;
+    left: 22px;
+    width: 247px;
+}
+
+.descricao-produto-4 {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    width: 252px;
+    position: absolute;
+    bottom: 50px;
+    left: 11px;
+    color: black;
+}
+
+.preco-4 {
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0px;
+    left: 11px;
+    color: black;
+}
+
+.favorito-4 {
+    position: absolute;
+    bottom: 194px;
+    right: 11px;
+}
+
+/* Produto 5 */
+.produto-5 {
+    width: 295px;
+    height: 587px;
+    background-color: white;
+    position: relative;
+}
+
+.imagem5-produto {
+    width: 214px;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+}
+
+.descricao-produto-5 {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    width: 219px;
+    position: absolute;
+    bottom: 147px;
+    left: 11px;
+    color: black;
+}
+
+.preco-5 {
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 95px;
+    left: 11px;
+    color: black;
+}
+
+.favorito-5 {
+    position: absolute;
+    bottom: 217px;
+    right: 11px;
+}
+
+/* Produto 6 */
+.produto-6 {
+    width: 295px;
+    height: 587px;
+    background-color: white;
+    position: relative;
+}
+
+.imagem6-produto {
+    width: 275px;
+    position: absolute;
+    top: 69px;
+    left: 7px;
+}
+
+.descricao-produto-6 {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    width: 263px;
+    position: absolute;
+    bottom: 79px;
+    left: 11px;
+    color: black;
+}
+
+.desconto-6 {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    text-decoration: line-through;
+    position: absolute;
+    bottom: 44px;
+    left: 11px;
+    color: black;
+}
+
+.preco-6 {
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 8px;
+    left: 11px;
+    color: black;
+}
+
+.favorito-6 {
+    position: absolute;
+    bottom: 221px;
+    right: 11px;
+}
+
+.faixa-desconto-6 {
+    width: 100%;
+    background-color: #6CC947;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0px;
+}
+
+.faixa-desconto-6 p {
+    color: white;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+
+/* Produto 7 */
+.produto-7 {    
+    width: 295px;
+    height: 587px;
+    background-color: white;
+    position: relative;
+}
+
+.imagem7-produto {
+    width: 261px;
+    position: absolute;
+    top: 80px;
+    left: 17px;
+}
+
+.descricao-produto-7 {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    width: 226px;
+    position: absolute;
+    bottom: 116px;
+    left: 11px;
+    color: black;
+}
+
+.desconto-7 {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    text-decoration: line-through;
+    position: absolute;
+    bottom: 83px;
+    left: 11px;
+    color: black;
+}
+
+.preco-7 {
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 40px;
+    left: 11px;
+    color: black;
+}
+
+.favorito-7 {
+    position: absolute;
+    bottom: 221px;
+    right: 11px;
+}
+
+.faixa-desconto-7 {
+    width: 100%;
+    background-color: #6CC947;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0px;
+}
+
+.faixa-desconto-7 p {
+    color: white;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+
+/* Produto 8 */
+.produto-8 {    
+    width: 295px;
+    height: 587px;
+    background-color: white;
+    position: relative;
+}
+
+.imagem8-produto {
+    width: 227px;
+    position: absolute;
+    top: 36px;
+    left: 31px;
+}
+
+.descricao-produto-8 {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    width: 202px;
+    position: absolute;
+    bottom: 112px;
+    left: 11px;
+    color: black;
+}
+
+.preco-8 {
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 64px;    
+    left: 11px;
+    color: black;
+}
+
+.favorito-8 {
+    position: absolute;
+    bottom: 218px;
+    right: 11px;
+}
+
+.ver-mais {
+    width: 338px;
+    height: 60px;
+    background-color: #11C042;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 123px auto 0px;
+    text-decoration: none;
+}
+
+.ver-mais a {
+    text-decoration: none;
+}
+
+.ver-mais p {
+    font-family: "Poppins", sans-serif;
+    font-size: 28px;
+    color: white;
+}
+
+/* Rodapé */
+footer {
+    width: 100%;
+    height: 268px;
+    background-color: #F2E8E8;
+}
+
+.container-grid-5 {
+    width: 1240px;
+    height: 268px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.nome-game-mania {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+}
+
+.direitos-reservados {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+}
+
+.sobre-nos {
+    list-style: none;
+    font-family: "Poppins",sans-serif;
+    font-size: 18px;
+    margin: 0px 0px 20px 136px;
+    color: rgba(0, 0, 0, 0.699);
+}
+
+.nome-sobre-nos {
+    color: black;
+}
+
+.sobre-nos li {
+    margin-bottom: 7px;
+}
+
+.sobre-nos li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.699);
+}
+
+.links-uteis {
+    list-style: none;
+    font-family: "Poppins",sans-serif;
+    font-size: 18px;
+    margin: 0px 0px 18px 100px;
+    color: rgba(0, 0, 0, 0.699);
+}
+
+.nome-links-uteis {
+    color: black;
+}
+
+.links-uteis li {
+    margin-bottom: 7px;
+}
+
+.links-uteis li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.699);
+}
+
+.faqs {
+    text-transform: uppercase;
+}
+
+.faqs p {}
+
+.siga-nos {
+    list-style: none;
+    font-family: "Poppins",sans-serif;
+    font-size: 18px;
+    margin: 14px 0px 0px 98px;
+}
+
+.nome-siga-nos {
+    color: black;
+}
+ 
+.siga-nos li {
+    margin-bottom: 7px;
+}
+
+.siga-nos li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.699);
+}
+
+/* Media queries */
+@media screen and (max-width: 1100px) {
+
+/* Header */
+.menu-header {
+    display: none;
+    flex-direction: column;
+    width: 200px;
+    height: 250px;
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+    
+.menu-hamburguer {
+    display: inline-block;
+    margin-right: 50px;
+}
+    
+.container-grid {
+    position: relative;
+}
+    
+.logo-menuhamburguer {    
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* Produtos em destaque */
+.produtos-destaque {
+    height: 1700px;
+}
+
+.container-grid-3 {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.nome-produtos-destaque {
+    display: flex;
+    justify-content: center;
+}
+
+.produtos {
+    display: flex;
+    justify-content: center;
+    column-gap: 22px;
+    row-gap: 32px;
+}
+
+/* Produto 1 */
+.produto-1 {
+    width: 200.43px;
+    height: 443px;
+}
+
+.imagem1-produto {
+    width: 166.46px;
+    height: 118.9px;
+    left: 19px;
+}
+
+.descricao-produto-1 {
+    font-size: 16.31px;
+    width: 152.19px;
+    height: 120.26px;
+    bottom: 68px;
+}
+
+.preco-1 {
+    width: 109.39px;
+    height: 22.42px;
+    font-size: 20.38px;
+    position: absolute;
+    bottom: 33px;
+}
+
+.favorito-1 {
+    position: absolute;
+    bottom: 160px;
+}
+
+.favorito-1 img {
+    width: 20.38px;
+    height: 20.38px;
+}
+
+/* Produto 2 */
+.produto-2 {
+    width: 200.43px;
+    height: 443px;
+}
+
+.imagem2-produto {
+    width: 146.08px;
+    height: 188.2px;
+    left: 30px;
+}
+
+.descricao-produto-2 {
+    width: 143.36px;
+    height: 103.27px;
+    font-size: 16.31px;
+    bottom: 83px;
+}
+
+.preco-2  {
+    width: 109.39px;
+    height: 22.42px;
+    font-size: 20.38px;
+    position: absolute;
+    bottom: 55px;
+}
+
+.favorito-2 {
+    bottom: 158px;
+}
+
+.favorito-2 img {
+    width: 20.38px;
+    height: 20.38px;
+}
+
+/* Produto 3 */
+.produto-3 {
+    width: 200.43px;
+    height: 443px;
+}
+
+.imagem3-produto {
+    width: 184.13px;
+    height: 181.41px;
+    left: 15px;
+}
+
+.descricao-produto-3 {
+    width: 136.57px;
+    height: 74.74px;
+    font-size: 16.31px;
+    bottom: 112px;
+}
+
+.preco-3  {
+    width: 125.02px;
+    height: 22.42px;
+    font-size: 20.38px;
+    bottom: 81px;
+}
+
+.favorito-3 {
+    bottom: 157px;
+}
+
+.favorito-3 img {
+    width: 20.38px;
+    height: 20.38px;
+}
+
+/* Produto 4 */
+.produto-4 {
+    width: 200px;
+    height: 443px;
+}
+
+.imagem-produto-4 {
+    width: 167.82px;
+    height: 165.1px;
+    left: 16px;
+    top: 47px;
+}
+
+.descricao-produto-4 {
+    width: 171.22px;
+    height: 118.9px;
+    font-size: 16.31px;
+    position: absolute;
+    bottom: 65px;
+}
+
+.preco-4  {
+    width: 123.66px;
+    height: 22.42px;
+    font-size: 20.38px;
+    position: absolute;
+    bottom: 26px;
+}
+
+.favorito-4 {
+    bottom: 155px;
+}
+
+.favorito-4 img {
+    width: 20.38px;
+    height: 20.38px;
+}
+
+/* Produto 5 */
+.produto-5 {
+    width: 200.43px;
+    height: 442.99px;
+}
+
+.imagem5-produto {
+    width: 145.4px;
+    height: 186.85px;
+    left: 28px;
+}
+
+.descricao-produto-5 {
+    font-size: 16.31px;
+    width: 148.8px;
+    height: 73.38px;
+    bottom: 111px;
+}
+
+.preco-5 {
+    width: 95.12px;
+    height: 30.57px;
+    font-size: 20.38px;
+    position: absolute;
+    bottom: 74px;
+}
+
+.favorito-5 {
+    bottom: 155px;
+}
+
+.favorito-5 img {
+    width: 20.38px;
+    height: 20.38px;
+}
+
+/* Produto 6 */
+.produto-6 {
+    width: 200.43px;
+    height: 442.99px;
+}
+
+.imagem6-produto {
+    width: 186.85px;
+    height: 135.21px;
+    left: 6px;
+}
+
+.descricao-produto-6 {
+    font-size: 16.31px;
+    width: 178.69px;
+    height: 127.73px;
+    bottom: 59px;
+}
+
+.desconto-6 {
+    font-size: 16.31px;
+    position: absolute;
+    bottom: 37px;
+}
+
+.preco-6 {
+    font-size: 20.38px;
+    position: absolute;
+    bottom: 9px;
+}
+
+.favorito-6 {
+    bottom: 157px;
+}
+
+.favorito-6 img {
+    width: 20.38px;
+    height: 20.38px;
+}
+
+.faixa-desconto-6 {
+    width: 200.43px;
+    height: 25.82px;
+}
+
+.faixa-desconto-6 p {
+    font-size: 16.31px;
+}
+
+/* Produto 7 */
+.produto-7 {
+    width: 200.43px;
+    height: 444.35px;
+}
+
+.imagem7-produto {
+    width: 177.33px;
+    height: 127.73px;
+    left: 11px;
+}
+
+.descricao-produto-7 {
+    width: 153.55px;
+    height: 94.44px;
+    font-size: 16.31px;
+    position: absolute;
+    bottom: 100px;
+}
+
+.desconto-7 {
+    position: absolute;
+    bottom: 81px;
+    width: 86.97px;
+    height: 12.91px;
+}
+
+.desconto-7 p {
+    font-size: 16.31px;
+}
+
+.preco-7 {
+    width: 99.88px;
+    height: 30.57px;
+    font-size: 20.38px;
+}
+
+.favorito-7 {
+    bottom: 165px;
+}
+
+.favorito-7 img {
+    width: 20.38px;
+    height: 20.38px;
+}
+
+.faixa-desconto-7 {
+    width: 200.43px;
+    height: 25.82px;
+}
+
+.faixa-desconto-7 p {
+    font-size: 16.31px;
+}
+
+/* Produto 8 */
+.produto-8 {
+    width: 200.43px;
+    height: 444.35px;
+}
+
+.imagem8-produto {
+    width: 154.23px;
+    height: 188.88px;
+    left: 23px;
+}
+
+.descricao-produto-8 {
+    width: 137.25px;
+    height: 97.16px;
+    font-size: 16.31px;
+    bottom: 99px;
+}
+
+.preco-8 {
+    width: 97.16px;
+    height: 30.57px;
+    font-size: 20.38px;
+    position: absolute;
+    bottom: 60px;
+}
+
+.favorito-8 {
+    position: absolute;    
+    bottom: 165px;
+}
+
+.favorito-8 img {
+    width: 20.38px;
+    height: 20.38px;   
+}
+
+.ver-mais {
+    position: absolute;
+    bottom: 46px;
+    left: 181px;
+}
+
+.ver-mais a {
+    text-decoration: none;
+}
+
+/* Rodapé */
+footer {
+    height: 1148px;
+}
+
+.container-grid-5{
+    width: 696px;
+    height: 1148px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.parte-esquerda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 162px;
+}
+
+.parte-esquerda a img {}
+
+.nome-game-mania {
+    font-size: 25.98px;
+}
+
+.direitos-reservados {
+    font-size: 25.98px;
+}
+
+.sobre-nos {
+    margin: 0px 0px 79px 0px;
+    position: absolute;
+    top: 55px;
+    left: 0px;
+    font-size: 21.88px;
+}
+
+.links-uteis {
+    margin: 0px 0px 79px 0px;
+    position: absolute;
+    left: 0px;
+    top: 267px;
+    font-size: 21.88px;
+}
+
+.siga-nos {
+    margin: 0px;
+    position: absolute;
+    left: 0px;
+    top: 478px;
+    font-size: 21.88px;
+}
+
+}
+
+@media screen and (max-width: 360px) {
+
+/* Header */
+header {
+    width: 360px;
+    height: 63px;
+}
+
+.logo-menuhamburguer {
+    flex-direction: row;
+}
+
+.logo {
+    margin-right: 93px;
+}
+
+.icones {
+    display: none;
+}
+
+/* Produtos em destaque */
+.produtos-destaque {
+    width: 360px;
+    height: 1534px;
+}
+
+.container-grid-3 {
+    width: 90%;
+    height: 100%;
+    margin: 0px auto;
+}
+
+.nome-produtos-destaque {
+    font-size: 24px;
+    padding: 30px 0px;
+}
+
+.produto-1 {
+    width: 147px;
+    height: 292.51px;
+}
+
+.imagem1-produto {
+    width: 122.08px;
+    height: 87.2px;
+    top: 46px;
+    left: 12px;
+}
+
+.descricao-produto-1 {
+    width: 111.62px;
+    height: 88.2px;
+    font-size: 11.98px;
+    left: 7px;
+    bottom: 28px;
+}
+
+.preco-1 {
+    width: 80.23px;
+    height: 16.44px;
+    font-size: 14.97px;
+    left: 7px;
+    bottom: 10px;
+}
+
+.favorito-1 {
+    bottom: 94px;
+    right: 4px;
+}
+
+.favorito-1 img {
+    width: 14.95px;
+    height: 14.95px;
+}
+
+.produto-2 {
+    width: 147px;
+    height: 292.51px;
+}
+
+.imagem2-produto {
+    width: 107.14px;
+    height: 138.03px;
+    top: 22px;
+    left: 20px;
+}
+
+.descricao-produto-2 {
+    width: 105.14px;
+    height: 75.74px;
+    font-size: 12.02px;
+    left: 7px;
+    bottom: 41px;
+}
+
+.preco-2 {
+    width: 80.23px;
+    height: 16.44px;
+    font-size: 15.03px;
+    left: 7px;
+    bottom: 25px;
+}
+
+.favorito-2 {
+    bottom: 94px;
+    right: 4px;
+}
+
+.favorito-2 img {
+    width: 14.95px;
+    height: 14.95px;
+}
+
+.produto-3 {
+    width: 147px;
+    height: 292.51px;
+}
+
+.imagem3-produto {
+    width: 135.04px;
+    height: 133.05px;
+    top: 14px;
+    left: 12px;
+}
+
+.descricao-produto-3 {
+    width: 100.16px;
+    height: 54.81px;
+    font-size: 12.06px;
+    bottom: 80px;
+    left: 7px;
+}
+
+.preco-3 {
+    width: 91.69px;
+    height: 16.44px;
+    font-size: 15.08px;
+    left: 7px;
+    bottom: 60px;
+}
+
+.favorito-3 {
+    bottom: 112px;
+    right: 4px;
+}
+
+.favorito-3 img {
+    width: 14.95px;
+    height: 14.95px;
+}
+
+.produto-4 {
+    width: 147px;
+    height: 292.51px;
+}
+
+.imagem-produto-4 {
+    width: 123.08px;
+    height: 121.09px;
+    top: 29px;
+    left: 12px;
+}
+
+.descricao-produto-4 {
+    width: 125.57px;
+    height: 87.2px;
+    font-size: 12.02px;
+    bottom: 49px;
+    left: 7px;
+}
+
+.preco-4 {
+    width: 90.69px;
+    height: 16.44px;
+    font-size: 15.03px;
+    left: 7px;
+}
+
+.favorito-4 {
+    bottom: 114px;
+    right: 4px;
+}
+
+.favorito-4 img {
+    width: 14.95px;
+    height: 14.95px;
+}
+
+.produto-5 {
+    width: 147.05px;
+    height: 325px;
+}
+
+.imagem5-produto {
+    width: 106.67px;
+    height: 137.08px;
+    top: 23px;
+    left: 21px;
+}
+
+.descricao-produto-5 {
+    width: 109.16px;
+    height: 53.83px;
+    font-size: 11.96px;
+    bottom: 92px;
+    left: 7px;
+}
+
+.preco-5 {
+    width: 69.79px;
+    height: 22.43px;
+    font-size: 14.95px;
+    bottom: 63px;
+    left: 7px;
+}
+
+.favorito-5 {
+    bottom: 123px;
+    right: 5px;
+}
+
+.favorito-5 img {
+    width: 14.95px;
+    height: 14.95px;
+}
+
+.produto-6 {
+    width: 147.5px;
+    height: 326px;
+}
+
+.imagem6-produto {
+    width: 137.5px;
+    height: 99.5px;
+    top: 53px;
+    left: 4px;
+}
+
+.descricao-produto-6 {
+    width: 131.5px;
+    height: 94px;
+    font-size: 12px; 
+    bottom: 53px; 
+    left: 7px;  
+}
+
+.desconto-6 {
+    width: 72.5px;
+    height: 16.5px;
+    font-size: 12px;
+    left: 7px;
+}
+
+.preco-6 {
+    width: 88px;
+    height: 22.5px;
+    font-size: 15px;
+    bottom: 13px;
+    left: 7px;
+}
+
+.favorito-6 {
+    bottom: 126px;
+    right: 4px;
+    right: 5px;
+}
+
+.favorito-6 img {
+    width: 15px;
+    height: 15px;
+}
+
+.faixa-desconto-6 {
+    width: 147.5px;
+    height: 19px;
+}
+
+.faixa-desconto-6 p {
+    font-size: 12px;
+}
+
+.produto-7 {
+    width: 147.5px;
+    height: 327px;
+}
+
+.imagem7-produto {
+    width: 130.5px;
+    height: 94px;
+    top: 54px;
+    left: 8px;
+}
+
+.descricao-produto-7 {
+    width: 113px;
+    height: 69.5px;
+    font-size: 12px;
+    bottom: 75px;
+    left: 7px;
+}
+
+.desconto-7 {
+    width: 64px;
+    height: 9.5px;
+    bottom: 60px;
+    left: 7px;
+}
+
+.desconto-7 p {
+    font-size: 12px;
+}
+
+.preco-7 {
+    width: 73.5px;
+    height: 22.5px;
+    font-size: 15px;
+    bottom: 27px;
+    left: 7px;
+}
+
+.favorito-7 {
+    bottom: 122px;
+    right: 5px;
+}
+
+.favorito-7 img {
+    width: 15px;
+    height: 15px;
+}
+
+.faixa-desconto-7 {
+    width: 147.5px;
+    height: 19px;
+}
+
+.faixa-desconto-7 p {
+    font-size: 12px;
+}
+
+.produto-8 {
+    width: 147px;
+    height: 324.9px;
+}
+
+.imagem8-produto {
+    width: 113.12px; 
+    height: 138.53px;
+    top: 18px;
+    left: 17px;
+}
+
+.descricao-produto-8 {
+    width: 100.66px;
+    height: 71.26px;
+    font-size: 12.04px;
+    bottom: 72px;
+}
+
+.preco-8 {
+    width: 72px;
+    height: 22px;
+    font-size: 15.05px;
+    bottom: 46px;
+}
+
+.favorito-8 {
+    bottom: 121px;
+    right: 5px;
+}
+
+.favorito-8 img {
+    width: 14.95px;
+    height: 14.95px;
+}
+
+.ver-mais {
+    width: 229px;
+    height: 40.65px;
+    left: 48px;
+    bottom: 29px;
+}
+
+.ver-mais p {
+    font-size: 18.97px;
+}
+
+/* Footer */
+footer {
+    width: 360px;
+    height: 892px;
+}
+
+.container-grid-5 {
+    width: 90%;
+    height: 100%;
+    margin: 0px auto;
+}
+
+.parte-esquerda {
+    bottom: 59px;
+}
+
+.nome-game-mania {
+    font-size: 18px;
+}
+
+.direitos-reservados {
+    width: 156px;
+    height: 54px;
+    font-size: 18px;
+    text-align: center; 
+}
+
+}
