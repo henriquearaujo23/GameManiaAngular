@@ -49,21 +49,7 @@
     <div class="container-grid-3">
         <p class="nome-produtos-destaque">Produtos em destaque</p>
         <div class="produtos">
-            
-            <a href="#" *ngFor="let produto of listaProdutos" class="produto-1">
-                <img class="imagem1-produto" src="assets/img/controle-xbox-semfundo-cortado.png" alt="controle-xbox.png">
-                <div class="descricao-produto-1">
-                    <p>{{ produto.titulo }}</p>
-                </div>
-                <div class="preco-1"> 
-                    <p>{{ produto.descricao }}</p> 
-                </div>
-                <div class="favorito-1">
-                    <img src="assets/img/favorito-30.png" alt="">
-                </div>
-            </a>
-            
-            <!-- <a href="#" class="produto-1">
+            <a href="#" class="cards">
                 <img class="imagem1-produto" src="assets/img/controle-xbox-semfundo-cortado.png" alt="controle-xbox.png">
                 <div class="descricao-produto-1">
                     <p>Controle para Xbox Series X/S - Xbox One X sem Fio Carbon Black Preto</p>
@@ -71,11 +57,11 @@
                 <div class="preco-1"> 
                     <p>R$ 499,00</p> 
                 </div>
-                <div class="favorito-1">
+                <div class="favoritos">
                     <img src="assets/img/favorito-30.png" alt="">
                 </div>
-            </a> -->
-            <a href="#" class="produto-2">
+            </a>
+            <a href="#" class="cards">
                 <img class="imagem2-produto" src="assets/img/jogo-spider-man-semfundo-cortado.png" alt="jogo-spiderman.png">
                 <div class="descricao-produto-2">
                     <p>Jogo Marvel's Spider-man: Miles Morales - PS4</p>
@@ -83,11 +69,11 @@
                 <div class="preco-2"> 
                     <p>R$ 238,00</p> 
                 </div>
-                <div class="favorito-2">
+                <div class="favoritos">
                     <img src="assets/img/favorito-30.png" alt="">
                 </div>
             </a>
-            <a href="#" class="produto-3">
+            <a href="#" class="cards">
                 <img class="imagem3-produto" src="assets/img/console-xboxseries-cortado.jpg" alt="console-xboxseries.jpg">
                 <div class="descricao-produto-3" >
                     <p>Console Xbox Series S 500gb Ssd</p>
@@ -95,11 +81,11 @@
                 <div class="preco-3">
                     <p>R$ 2.399,99</p>
                 </div>
-                <div class="favorito-3">
+                <div class="favoritos">
                     <img src="assets/img/favorito-30.png" alt="">
                 </div>
             </a>
-            <a href="#" class="produto-4">
+            <a href="#" class="cards">
                 <img class="imagem-produto-4" src="assets/img/imac.png" alt="imac.png">
                 <div class="descricao-produto-4">
                     <p>iMac 21,5", Tela Retina 4K Apple, Intel® Core™ i5 (8GB RAM, 256GB SSD) - Prateado</p>
@@ -107,11 +93,11 @@
                 <div class="preco-4">
                     <p>R$9.799,02</p>
                 </div>
-                <div class="favorito-4">
+                <div class="favoritos">
                     <img src="assets/img/favorito-30.png" alt="">
                 </div>
             </a>
-            <a href="#" class="produto-5">
+            <a href="#" class="cards">
                 <img class="imagem5-produto" src="assets/img/watchdogs-semfundo-cortado.png" alt="">
                 <div class="descricao-produto-5">
                     <p>Jogo Watch Dogs Legion - Xbox One</p>
@@ -119,11 +105,11 @@
                 <div class="preco-5">
                     <p>R$ 129,90</p>
                 </div>
-                <div class="favorito-5">
+                <div class="favoritos">
                     <img src="assets/img/favorito-30.png" alt="">
                 </div>
             </a>
-            <a href="#" class="produto-6">
+            <a href="#" class="cards">
                 <img class="imagem6-produto" src="assets/img/console-nitendoswitch-semfundo-cortado.png" alt="">
                 <div class="descricao-produto-6">
                     <p>Console Nintendo Switch 32GB + Controle Joy-Con Neon Azul e Vermelho</p>
@@ -134,14 +120,14 @@
                 <div class="preco-6">
                     <p>R$ 2.099,00</p>
                 </div>
-                <div class="favorito-6">
+                <div class="favoritos">
                     <img src="assets/img/favorito-30.png" alt="">
                 </div>
                 <div class="faixa-desconto-6">
                     <p>28% de desconto</p>
                 </div>
             </a>
-            <a href="#" class="produto-7">
+            <a href="#" class="cards">
                 <img class="imagem7-produto" src="assets/img/controle-ps5-cortado.jpg" alt="">
                 <div class="descricao-produto-7">
                     <p>Controle Dualsense PlayStation®5 - PS5</p>
@@ -152,14 +138,14 @@
                 <div class="preco-7">
                     <p>R$ 399,99</p>
                 </div>
-                <div class="favorito-7"> 
+                <div class="favoritos"> 
                     <img src="assets/img/favorito-30.png" alt="">
                 </div>
                 <div class="faixa-desconto-7">
                     <p>6% de desconto</p>
                 </div>
             </a>
-            <a href="#" class="produto-8">
+            <a href="#" class="cards">
                 <img class="imagem8-produto" src="assets/img/crash-cortado.png" alt="">
                 <div class="descricao-produto-8">
                     <p>Game Crash Bandicoot N'sane Trilogy - PS4</p>
@@ -167,13 +153,13 @@
                 <div class="preco-8">
                     <p>R$ 149,90</p>
                 </div>
-                <div class="favorito-8">
+                <div class="favoritos">
                     <img src="assets/img/favorito-30.png" alt="">
                     </div>
-            </a> -->
+            </a> 
         </div>
         <a href="#" class="todos-produtos">
-                <p>Ver todos produtos</p> 
+            <p>Ver todos produtos</p> 
         </a>
     </div>
 </section>
