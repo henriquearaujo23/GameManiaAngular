@@ -31,10 +31,15 @@
     let menu = document.getElementById("menu");
 
     function mostrarMenu() {
-        if (menu.style.display == "none") {
-            menu.style.display = "flex"
-        } else {
+        console.log( getComputedStyle(menu).display );
+
+        console.log(menu.style.display)
+
+        if (getComputedStyle(menu).display !== "none") {
             menu.style.display = "none"
+            
+        } else {
+            menu.style.display = "flex"
         }
     }
 </script>

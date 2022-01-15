@@ -6,6 +6,7 @@
     background-position: center;
     background-size: cover;
     position: relative;
+    z-index: 0;
 }
 
 .lancamento {
@@ -49,7 +50,7 @@
     font-weight: 600;
 }
 
-/* Seção Categorias */
+/* Categorias */
 .categoria {
     height: 350px;
     background-color: #F0EBEB;
@@ -118,8 +119,6 @@
     justify-content: center;
     position: relative;
 }
-
-.bloco-2 img {}
 
 .bloco-2 p {
     font-family: "Poppins", sans-serif;
@@ -241,8 +240,6 @@
     position: relative;
 }
 
-.bloco-7 img {}
-
 .bloco-7 p {
     font-family: "Poppins", sans-serif;
     font-size: 20px;
@@ -251,7 +248,7 @@
     bottom: 14px;
 }
 
-/* Seção de Produtos */
+/* Produtos em destaque */
 .produtos-destaque {
     width: 100%;
     height: 1629px;
@@ -594,7 +591,7 @@
     color: white;
 }
 
-/* Seção Newsletter */
+/* Newsletter */
 .newsletter {
     width: 100%;
     height: 141px;
@@ -609,8 +606,6 @@
     align-items: center;
     position: relative;
 }
-
-.nome-newsletter {}
 
 .nome-newsletter h2 {
     font-family: "Poppins", sans-serif;
@@ -631,32 +626,32 @@
     position: absolute;
     right: 0px;
     bottom: 58px;
-    background: none;
-    border: none;
+}
+
+.inscricao a {
     font-family: "Poppins", sans-serif;
     font-size: 18px;
     text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    float: right;
 }
 
-.inscricao a {}
-
-#email {
+.linha-email {
     width: 506px;
     border: 1px solid black;
     position: absolute;
     right: 0px;
     bottom: 49px;
-    background: none;
-    border: none;
-    border-bottom: 1px solid;
-    outline: none;
 }
 
+/* Medias queries */
 @media screen and (max-width: 1100px) {
 
 /* Banner */
 .banner {
-    background-image: url('/src/assets/img/banner-1440.jpg');
+    background-image: url(../../../assets/img/banner-1440.jpg);
     width: 100%;
     height: 240px;
     background-repeat: no-repeat;
@@ -697,8 +692,6 @@
     display: flex;
     justify-content: center;
 }
-
-.nome-categorias {}
 
 .blocos {
     flex-wrap: wrap;
@@ -1084,7 +1077,7 @@
     justify-content: center;
 }
 
-#email {
+.linha-email {
     width: 633px;
 }
 
@@ -1094,13 +1087,13 @@
     left: 30px;
 }
 
-} 
+}
 
 @media screen and (max-width: 360px) {
 
 /* Banner */
 .banner {
-    /* background-image: url(../img/banner-celular.jpg); */
+    background-image: url(../../../assets/img/banner-1440.jpg);
     width: 360px;
     height: 539px;
 }
@@ -1246,7 +1239,6 @@
 .bloco-7 p {
     font-size: 15.75px;
 }
-
 
 /* Produtos em destaque */
 .produtos-destaque {
@@ -1548,19 +1540,12 @@
     text-align: center;
 }
 
-.inscricao {
+.inscricao a {
     font-size: 13px;
 }
 
-.inscricao a {}
-
-#email {
+.linha-email {
     width: 303px;
 }
 
 }
-
-
-
-
-
