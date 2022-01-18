@@ -184,7 +184,20 @@
     <div class="container-grid-3">
         <p class="nome-produtos-destaque">Produtos em destaque</p>
         <div class="produtos">
-            <a routerLink="#" class="cards">
+            <a *ngFor="let produtos of listaProdutos" routerLink="#" class="cards">
+                <img class="imagem1-produto" src="assets/img/controle-xbox-semfundo-cortado.png" alt="controle-xbox.png">
+                <div class="descricao-produto-1">
+                    <p>{{ produtos.titulo }}</p>
+                </div>
+                <div class="preco-1"> 
+                    <p>{{ produtos.descricao }}</p> 
+                </div>
+                <div class="favoritos">
+                    <img src="assets/img/favorito-30.png" alt="">
+                </div>
+            </a>
+
+            <!-- <a routerLink="#" class="cards">
                 <img class="imagem1-produto" src="assets/img/controle-xbox-semfundo-cortado.png" alt="controle-xbox.png">
                 <div class="descricao-produto-1">
                     <p>Controle para Xbox Series X/S - Xbox One X sem Fio Carbon Black Preto</p>
@@ -195,8 +208,9 @@
                 <div class="favoritos">
                     <img src="assets/img/favorito-30.png" alt="">
                 </div>
-            </a>
-            <a routerLink="#" class="cards">
+            </a> -->
+
+            <!-- <a routerLink="#" class="cards">
                 <img class="imagem2-produto" src="assets/img/jogo-spider-man-semfundo-cortado.png" alt="jogo-spiderman.png">
                 <div class="descricao-produto-2">
                     <p>Jogo Marvel's Spider-man: Miles Morales - PS4</p>
@@ -291,7 +305,7 @@
                 <div class="favoritos">
                     <img src="assets/img/favorito-30.png" alt="">
                     </div>
-            </a> 
+            </a>  -->
         </div>
         <a routerLink="#" class="todos-produtos">
             <p>Ver todos produtos</p> 
