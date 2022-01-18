@@ -35,7 +35,7 @@ export class LoginComponent implements OnInit {
       this.router.navigateByUrl("/");
     }, (error) => {
       if(error.status = 400) { 
-        this.mensagem = "Usuário ou senha incorretos!";
+        this.mensagem = "Usuário e/ou senha incorretos!";
       }
     } ) 
   }
